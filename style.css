@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+.header-text {
+    text-align: center;
+    margin: 30px;
+}
+
+.calculator {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+}
+
+.displayer {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+
+.input-display {
+    color: white;
+    text-align: right;
+    font-size: 35px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+    height: 18%;
+}
+
+.btn {
+    background-color: #d8d9db;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 0;
+    cursor: pointer;
+    border-right: black 0.5px solid;
+    border-bottom: black 0.5px solid;
+
+}
+
+.btn:last-child {
+    background-color: #df974c;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 0;
+    cursor: pointer;
+    border: none;
+    border-bottom: black 0.5px solid;
+}
+
+.btn:hover {
+    background-color:#e7eaf1;
+}
+
+.btn:last-child:hover {
+    background-color: chocolate;
+}
+
+.half {
+    width: 50%;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.three-quarter {
+    width: 75%;
+}
+
